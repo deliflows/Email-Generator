@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Email Excuse Generator</title>
+</head>
+<body>
+    <header>
+        <h1>Do you need an excuse?</h1>
+        <!-- <iframe src="https://giphy.com/embed/SY44A3CMBwM83yI7t2" width="380" height="171" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/SY44A3CMBwM83yI7t2"></a></p> -->
+    </header>
+    <div class="maincard">
+        <div class="intro">
+            <p>We've all been there. We stay out late, watch TV 'til 4am, and decorate our Animal Crossing homes for 10 hours straight. But your family and boss don't have to know that! Select your audience, enter your name, and generate your ideal excuse.</p>
+        </div>
+        <div class="card">
+            <form action="random">
+                <div class="line1">
+                    <label for="category">To:</label>
+                    <select name="category" id="category">
+                        <option value="none">Select your Audience</option>
+                        <option value="family">Family Friendly</option>
+                        <option value="office">Office Professional</option>
+                        <option value="children">Children</option>
+                        <option value="college">College Classmates</option>
+                        <option value="party">Party Time</option>
+                        <option value="funny">Funny</option>
+                        <option value="unbelievable">Unbelievable</option>
+                        <option value="developers">Developers</option>
+                        <option value="gaming">Gaming</option>
+                    </select>
+                </div>
+                <div class="line2">
+                    <label for="name">From:</label>
+                    <input type="text" id="name" placeholder="Jane Doe">
+                </div>
+                <div class="line3">
+                    <label for="send">Generate your excuse!</label>
+                    <button id="send"></button>
+                </div>
+            </form>
+        </div>
+        <div class="minicard" id="myText">
+            <div class="salutations"></div>
+            <div class="displayexcuse"></div>
+            <div class="closing"></div>
+            <div class="theirname"></div>
+            <!-- <div class="photo"><img class="displayphoto"src="" alt=""></div> -->
+            <img class="photo" src="" alt="">
+        </div>
+        <div class="newphoto">
+            <label for="newphoto">Keep the excuse, but generate a new image</label>
+            <button id="newphoto"></button>
+        </div>
+        <div class="copy">
+            <label for="btn">Copy the excuse</label>
+            <button class="btn" onclick="copyContent()"></button>
+        </div>
+        <div class="newnewbtn">
+            <div class="newbtn">
+                <label for="new">Generate another excuse</label>
+                <button id="new"></button>
+            </div>
+        </div>
+    <footer>
+        <p>Developed by &copy; 2022 Blee</p>
+    </footer>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+body, html {
+    margin: none;
+    padding: none;
+}
+body {
+    background-color: rgb(175, 175, 175);
+}
+header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    padding-top: 20px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.442);
+    padding-bottom: 20px;
+}
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight:700;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.intro{
+    font-weight: 300;
+    margin: 40px;
+    line-height: 28px;
+    text-indent: 28px;
+}
+
+.maincard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 200px;
+}
+#category {
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+}
+#category:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgb(220, 216, 210);
+    border-radius: 20px;
+}
+input[type=text] {
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+}
+input[type=text]:focus{
+    outline: none;
+    box-shadow: 0 0 0 2px rgb(220, 216, 210);
+    border-radius: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 20px;
+    padding: 100px;
+    box-shadow: 10px 5px 5px rgb(86, 86, 86);
+    margin-bottom: 30px;
+}
+.line1{
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+.line2{
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+.line3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#send {
+    background-image: url(../images/noun-send-button-2747988.png);
+    background-size: 30px;
+    background-color: white;
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 20px;
+}
+#send:hover{
+    background-color: rgb(76, 163, 255);
+    cursor: pointer;
+}
+.newnewbtn {
+    display: flex;
+}
+.newbtn {
+    display: flex;
+    align-items: center;
+}
+#new {
+    display: flex;
+    background-image: url(../images/noun-more-216353.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-color: rgb(175, 175, 175);
+    width: 40px;
+    height: 40px;
+    border: none;
+    margin-left: 12px;
+    cursor: pointer;
+    /* border-radius: 20px; */
+}
+.newphoto {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#newphoto {
+    display: flex;
+    background-image: url(../images/10390732051556279773-128.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-color: rgb(175, 175, 175);
+    width: 40px;
+    height: 40px;
+    border: none;
+    margin-left: 12px;
+    cursor: pointer;
+}
+.copy {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+.btn {
+    display: flex;
+    background-image: url(../images/4498062351543238871-128.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-color: rgb(175, 175, 175);
+    width: 40px;
+    height: 40px;
+    border: none;
+    margin-left: 12px;
+    cursor: pointer; 
+}
+.minicard {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 48px;
+    margin: 28px;
+    box-shadow: 10px 5px 5px rgb(86, 86, 86);
+}
+.salutations {
+    margin-bottom: 20px;
+}
+.displayexcuse {
+    margin-bottom: 20px;
+}
+.closing {
+    margin-bottom: 20px;
+}
+.theirname {
+    margin-bottom: 20px;
+}
+img {
+    border-radius: 20px;
+    /* margin: 20px; */
+}
+footer {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+}
